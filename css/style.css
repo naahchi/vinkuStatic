@@ -376,7 +376,7 @@ li:hover, .active {
 .coming_soon::before{
     content: "Coming Soon";
     font-size: clamp(40px, 4vw, 60px);
-    top: 40%;
+    top: 45%;
     left: 50%;
 }
 .coming_soon::after{
