@@ -245,7 +245,7 @@ document.addEventListener("click", (e) => {
 // ====== INIT ===========
 // =======================
 
-fetch("https://vinku.in/data/cities.json")
+fetch("https://naahchi.github.io/vinkuStatic/data/cities.json")
   .then(res => res.json())
   .then(data => {
     cities = data;
