@@ -61,13 +61,12 @@
                                 <span class="desc_city"><strong>{{ page.category | replace: "-", " " | capitalize | default: "Personals" }}</strong></span> Service in <span class="desc_city"><strong>{{ page.city | default: "india" | replace: "-", " " | capitalize }}{% if page.state %}, {{ page.state | replace: "-", " " | capitalize }}{% endif %}</strong></span>. offers trusted and verified providers near you, delivering quality solutions with affordable pricing and flexible payment options including <strong>Cash on Delivery</strong>. Choose reliable services designed to meet your needs with ease and convenience.
                             </p>
                         </div>
-                    {% endunless %}    
+                    {% endunless %}
+                    {{ content }}    
                 </div>
                 <div class="side_bar"></div>
             </div>
         {% endunless %}
-
-        {{ content }}
 
     </main>
     {% include footer.html %}
@@ -88,6 +87,5 @@
 
 </script>
 <script src="{{ '/js/main.js' | relative_url }}"></script>
-<!-- <script src="/js/main.js"></script> -->
 </body>
 </html>
