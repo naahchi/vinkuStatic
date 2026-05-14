@@ -283,10 +283,10 @@ function saveSearch(city, state, category) {
 }
 
 function buildUrl(state, city, category) {
-  if (state && city && category) return `./${state}/${city}/${category}/`;
-  if (state && city) return `./${state}/${city}/`;
-  if (category) return `./${category}/`;
-  return "./";
+  if (state && city && category) return `/vinkuStatic/${state}/${city}/${category}/`;
+  if (state && city) return `/vinkuStatic/${state}/${city}/`;
+  if (category) return `/vinkuStatic/${category}/`;
+  return `/vinkuStatic/`;
 }
 
 // =======================
