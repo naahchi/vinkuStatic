@@ -78,10 +78,8 @@ h1{
     text-decoration: none;
     color: black;
 }
-.icon_text{
+.icon_text, .menu_mbl{
     display: none;
-    /* display: flex; */
-    /* justify-content: center; */
 }
 .bottom_icon span{
     /* font-size: 1em; */
@@ -439,8 +437,8 @@ li:hover, .active {
 }
 /* Media queries */
 @media (max-width: 768px) {
-    .display_none{
-        display: none;
+    .menu_mbl{
+        display: block;
     }
     .top_nav{
         height: 45px;
@@ -504,6 +502,9 @@ li:hover, .active {
     .top_icons{
         display: flex;
         gap: 10px;
+    }
+    .display_none, .menu_desk{
+        display: none;
     }
     #recent-container{
         width: 100%;
