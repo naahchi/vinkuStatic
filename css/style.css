@@ -382,14 +382,14 @@ li:hover, .active {
 }
 .coming_soon::before{
     content: "Coming Soon";
-    font-size: clamp(60px, 4vw, 60px);
+    font-size: clamp(40px, 4vw, 60px);
     top: 40%;
     left: 50%;
 }
 .coming_soon::after{
     content: "This page is coming soon";
     position: absolute;
-    font-size: clamp(30px, 4vw, 60px);
+    font-size: clamp(20px, 4vw, 60px);
     top: 50%;
     left: 50%;
 }
