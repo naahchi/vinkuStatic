@@ -364,13 +364,6 @@ li:hover, .active {
     font-weight: bold;
 }
 
-/* Page not found  */
-.page_not_found{
-    position: relative;
-    min-height: calc(100dvh - 149px);
-    z-index: 1;
-}
-
 /* Coming Soon */
 .coming_soon::before, .coming_soon::after{
     position: absolute;
@@ -395,6 +388,12 @@ li:hover, .active {
 }
 
 /* Page not found */
+/* .page_not_found{
+    position: relative;
+    min-height: calc(100dvh - 149px);
+    z-index: 1;
+} */
+
 .page_not_found::before, .page_not_found::after{
     position: absolute;
     font-weight: bold;
