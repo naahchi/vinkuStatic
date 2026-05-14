@@ -19,7 +19,7 @@
 </head>
 <body>
     {% include header.html %}
-    <main>
+    <main class="{% if page.class %}{{ page.class }}{% endif %}">
 
         <div class="top_section">
             <div class="top_header">

@@ -371,6 +371,30 @@ li:hover, .active {
     z-index: 1;
 }
 
+/* Coming Soon */
+.coming_soon::before, .coming_soon::after{
+    position: absolute;
+    font-weight: bold;
+    color: rgb(168, 168, 168);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    z-index: 0;
+}
+.coming_soon::before{
+    content: "Coming Soon";
+    font-size: clamp(60px, 4vw, 60px);
+    top: 40%;
+    left: 50%;
+}
+.coming_soon::after{
+    content: "This page is coming soon";
+    position: absolute;
+    font-size: clamp(30px, 4vw, 60px);
+    top: 50%;
+    left: 50%;
+}
+
+/* Page not found */
 .page_not_found::before, .page_not_found::after{
     position: absolute;
     font-weight: bold;
@@ -405,7 +429,6 @@ li:hover, .active {
     border-radius: 5px;
     box-shadow: 0 0 2.5px 1px gray;
 }
-
 
 /* Mobile Desktop Queries */
 @media (max-width: 980px) {
