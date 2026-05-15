@@ -35,20 +35,22 @@
                 {% endunless %}
             </div>
             {% unless page.disable_search_bar %}
-                {% include search.html %}
+            {% include search.html %}
             {% endunless %}
-
-            <div class="category_section">
-                <a href="./escorts/">Escorts</a>
-                <a href="./callgirls/">Callgirls</a>
-                <a href="./high-profiles/">High profiles</a>
-                <a href="./college-girls/">College Girls</a>
-                <a href="./bhabhis/">Bhabhis</a>
-                <a href="./aunties/">Aunties</a>
-                <a href="./housewifes/">Housewifes</a>
-                <a href="./russians/">Russians</a>
-                <a href="./models/">Models</a>
-            </div>
+            
+            {% unless page.disable_category_section %}
+                <div class="category_section {% if page.display %}{{ page.display }}{% endif %}">
+                    <a href="/vinkuStatic/escorts">Escorts</a>
+                    <a href="/vinkuStatic/callgirls">Callgirls</a>
+                    <a href="/vinkuStatic/high-profiles">High profiles</a>
+                    <a href="/vinkuStatic/college-girls">College Girls</a>
+                    <a href="/vinkuStatic/bhabhis">Bhabhis</a>
+                    <a href="/vinkuStatic/aunties">Aunties</a>
+                    <a href="/vinkuStatic/housewifes">Housewifes</a>
+                    <a href="/vinkuStatic/russians">Russians</a>
+                    <a href="/vinkuStatic/models">Models</a>
+                </div>
+            {% endunless %}
 
         </div>
 

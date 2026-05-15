@@ -404,7 +404,7 @@ li:hover, .active {
     content: "This page is coming soon";
     position: absolute;
     font-size: clamp(20px, 4vw, 40px);
-    top: 50%;
+    top: 53%;
     left: 50%;
 }
 
