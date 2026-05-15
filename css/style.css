@@ -559,6 +559,7 @@ li:hover, .active {
     #recent-container{
         order: 3;
         width: 100%;
+        padding: 0;
     }
     main{
         min-height: calc(100dvh - 129px);
@@ -578,7 +579,7 @@ li:hover, .active {
     .category_section{
         order: 4;
         width: 100%;
-        margin: 5px auto 10px auto;
+        margin: 10px auto;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
