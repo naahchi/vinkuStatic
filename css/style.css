@@ -298,10 +298,10 @@ li:hover, .active {
 
 /* Recent Search Section */
 .recent_searches{
-    order: 4;
     display: none;
 }
 #recent-container{
+    order: 4;
     width: 80%;
     margin: 10px auto;
 }
