@@ -555,9 +555,6 @@ li:hover, .active {
         display: flex;
         gap: 10px;
     }
-    .display_none, .menu_desk{
-        display: none;
-    }
     #recent-container{
         width: 100%;
     }
@@ -624,6 +621,9 @@ li:hover, .active {
     }
     .side_bar{
         display: none; 
+    }
+    .display_none, .menu_desk{
+        display: none;
     }
     /* footer{
         margin-bottom: 46px;
