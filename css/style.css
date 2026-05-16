@@ -569,10 +569,10 @@ li:hover, .active {
         min-height: calc(100dvh - 129px);
     }
     .fixed_hieght{
-        padding: 50px 10px 0 10px;
+        padding: 0 10px;
     }
     .non_fixed_hieght{
-        padding: 0 10px;
+        padding: 50px 10px 0 10px;
     }
     .top_header{
         width: 100%;
